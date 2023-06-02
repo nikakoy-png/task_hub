@@ -1,0 +1,251 @@
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  overflow-y: scroll;
+  width: 100%;
+  max-height: 70vh;
+  position: relative;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: none;
+}
+
+.comment-section button[type="submit"] {
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section h3 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.comment-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.comment-section li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.comment-section .comment p {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.comment-section .comment button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-section .comment button i {
+  color: purple;
+  margin-left: 5px;
+}
+
+.comment-section .reply-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.comment-section .reply-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment-section .reply-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: none;
+}
+
+.comment-section .reply-section button[type="submit"] {
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section .reply-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.comment-section .reply-section li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+p {
+  word-break: break-all;
+}
+
+.comment-section .reply-section p {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.comment-section {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-section form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.comment-section form button {
+  align-self: flex-end;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c5ce7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.comment-section h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #6c5ce7;
+}
+
+.comment-section ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.comment p {
+  margin: 0;
+  font-size: 16px;
+  color: #212529;
+  word-wrap: break-word;
+}
+
+.comment button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.comment .likes {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.comment .likes i {
+  margin-right: 5px;
+}
+
+.comment .likes .like-count {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #212529;
+}
+
+.comment .likes .dislike-count {
+  font-size: 16px;
+  color: #212529;
+}
+
+.comment .likes .dislike-count:before {
+  content: '-';
+  margin-right: 5px;
+}
+
+.comment .likes .dislike-count:after {
+  content: '+';
+  margin-left: 5px;
+}
+
+.comment .likes .like-count,
+.comment .likes .dislike-count {
+  display: flex;
+  align-items: center;
+}
